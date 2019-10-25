@@ -1,5 +1,3 @@
-DROP TRIGGER swapUtenti;
-
 DELIMITER $$
 CREATE TRIGGER swapUtenti
 AFTER INSERT ON prenotazione
